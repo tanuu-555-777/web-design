@@ -1,0 +1,55 @@
+/* 
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header>h2 {
+            font-size: 2rem;
+            color: goldenrod;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1 {
+            margin: 20px 10px;
+            font-size: 3.5rem;
+            font-family: 'Dai Banna SIL', 'Arial Narrow', Arial, sans-serif ;
+        }
+        h2 {
+            margin: 10px;
+            display: block;
+        } 
+        img {
+            height: 150px;
+            margin: 10px 10px 0px 0px;
+        }
+        .left, .right {
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main {
+            display: flex;
+            flex-direction: row;
+        }
+        .content {
+            float: right;
+            margin: 0px 10px;
+        }
+        @media (max-width : 950px) {
+            .main,.right,.left{
+                flex-direction: column;
+            }
+            .content {
+                text-align: center;
+            }
+        }
+        p{
+            margin: 10px 5px;
+            display: block;
+        }
+        footer {
+            text-align: end;
+        }
+        span {
+            color: rgb(45, 45, 247);
+        } */
